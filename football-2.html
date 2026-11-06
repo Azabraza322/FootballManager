@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Idle Football Manager</title>
+<link rel="stylesheet" href="style.css?v=9">
+<script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js" defer></script>
+<script>
+  window.onerror = function(message, source, lineno, colno, error) {
+    alert('Ошибка: ' + message + '\nСтрока: ' + lineno);
+  };
+</script>
+</head>
+<body>
+<div id="game-container"></div>
+
+<script src="data.js?v=9" defer></script>
+<script src="logic.js?v=9" defer></script>
+<script src="scenes_core.js?v=9" defer></script>
+<script src="scenes_club.js?v=9" defer></script>
+<script src="scenes_squad.js?v=9" defer></script>
+<script src="scenes_inventory.js?v=9" defer></script>
+<script src="scenes_match.js?v=9" defer></script>
+<script src="main.js?v=9" defer></script>
+</body>
+</html>
